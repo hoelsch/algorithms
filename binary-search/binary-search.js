@@ -23,12 +23,16 @@ function binarySearch(element, values) {
     if (values[midPos] === element) {
       return midPos;
     } else if (element > values[midPos]) {
-      // the target element is larger than the mid element
-      // --> search in the right half
+      /**
+       * the target element is larger than the mid element
+       * --> search in the right half
+       */
       startPos = midPos + 1;
     } else {
-      // the target element is smaller than the mid element
-      // --> search in the left half
+      /**
+       * the target element is smaller than the mid element
+       * --> search in the left half
+       */
       endPos = midPos - 1;
     }
   }
