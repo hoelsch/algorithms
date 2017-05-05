@@ -1,8 +1,9 @@
 /* eslint no-param-reassign: 0 */
+/* eslint no-constant-condition: 0 */
 
 /**
  * Partitions the array according to the pivot element:
- * - items smaller equal than the pivot become before the pivot
+ * - items smaller than the pivot become before the pivot
  * - items larger than the pivot become after the pivot
  *
  * @param {(Number[]|String[])} array - (Sub-)Array that should be sorted
