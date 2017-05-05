@@ -18,8 +18,10 @@ function selectionSort(array) {
   ) {
     let minItemPos = leftmostUnsortedItemPos;
 
-    // iterate over all itmes occuring after the leftmost unsorted item and
-    // find the smallest one and swap it with the leftmost unsorted item
+    /**
+     * iterate over all itmes occuring after the leftmost unsorted item and
+     * find the smallest one and swap it with the leftmost unsorted item
+     */
     for (let i = leftmostUnsortedItemPos + 1; i < array.length; i += 1) {
       if (array[i] < array[minItemPos]) {
         minItemPos = i;
