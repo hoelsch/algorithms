@@ -7,10 +7,10 @@
  * elements in the array. However, binary search is only efficient
  * with random access (e.g. not suitable for a linked list).
  *
- * @param {(Number|String)} element - The target element.
- * @param {(Number[]|String[])} values - Sorted array of elements.
+ * @param {(Number|String)} element - The target element
+ * @param {(Number[]|String[])} values - Sorted array of elements
  * @returns {Number} - Position of the target element in the array;
- * if the element is not contained, -1 is returned.
+ * if the element is not contained, -1 is returned
  */
 function binarySearch(element, values) {
   let startPos = 0;
